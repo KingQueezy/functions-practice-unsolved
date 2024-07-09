@@ -12,7 +12,18 @@
  */
 
 // Your code goes here...
-
+//getDiffTwentySeven function
+function getDiffTwentySeven(num){
+  // return num-27 = y
+  const abdifference = Math.abs(num - 27);
+  // if num > 27 
+  if (num > 27) {
+  // return y * 2
+    return (abdifference * 2);
+  } else {
+    return abdifference;
+  }
+}
 
 
 
@@ -24,6 +35,18 @@
  */
 
 // Your code goes here
+// sumOfTwoIntergers(num1, num2) function
+function sumOfTwoIntegers(num1, num2) {
+const sum = num1 + num2;
+// if num1 === num2
+if (num1 === num2) {
+// return ((num1 + num2) * 3)
+  return (sum * 3);
+}
+// return (num1 + num2)
+return sum;
+}
+
 
 
 
@@ -38,6 +61,25 @@
  */
 
 // Your code goes here...
+// isOneOfThemOrTheirSumIsFourty(num1, num2) function
+function isOneOfThemOrTheirSumIsFourty(num1, num2) {
+// if (num1 or num2) = 40
+if (num1 === 40 || num2 === 40) {
+// return true
+  return true;
+}
+// else if (num1 + num2) = 40
+else if ((num1 + num2) === 40) {
+// return true
+  return true;
+}
+// else
+else {
+// return false
+  return false;
+}
+}
+
 
 
 
